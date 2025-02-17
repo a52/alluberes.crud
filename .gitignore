@@ -1,0 +1,13 @@
+alluberes.crud.application/bin/
+alluberes.crud.application/obj/
+
+alluberes.crud.domain/bin/
+alluberes.crud.domain/obj/
+
+alluberes.crud.infrastructure/bin/
+alluberes.crud.infrastructure/obj/
+
+alluberes.crud.test/bin/
+alluberes.crud.test/obj/
+
+

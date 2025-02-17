@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "alluberes.crud.domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/alluberes.crud.domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/alluberes.crud.domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "alluberes.crud.domain/1.0.0": {
+      "type": "project",
+      "path": "../alluberes.crud.domain/alluberes.crud.domain.csproj",
+      "msbuildProject": "../alluberes.crud.domain/alluberes.crud.domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "alluberes.crud.domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/home/a52/.nuget/packages/": {}
@@ -32,7 +51,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/home/a52/dev/testing/alluberes.crud/alluberes.crud.domain/alluberes.crud.domain.csproj": {
+              "projectPath": "/home/a52/dev/testing/alluberes.crud/alluberes.crud.domain/alluberes.crud.domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
