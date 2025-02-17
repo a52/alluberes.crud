@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/a52/dev/testing/alluberes.crud/alluberes.crud.domain/alluberes.crud.domain.csproj": {}
+  },
+  "projects": {
+    "/home/a52/dev/testing/alluberes.crud/alluberes.crud.domain/alluberes.crud.domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/a52/dev/testing/alluberes.crud/alluberes.crud.domain/alluberes.crud.domain.csproj",
+        "projectName": "alluberes.crud.domain",
+        "projectPath": "/home/a52/dev/testing/alluberes.crud/alluberes.crud.domain/alluberes.crud.domain.csproj",
+        "packagesPath": "/home/a52/.nuget/packages/",
+        "outputPath": "/home/a52/dev/testing/alluberes.crud/alluberes.crud.domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/a52/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/usr/lib/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
