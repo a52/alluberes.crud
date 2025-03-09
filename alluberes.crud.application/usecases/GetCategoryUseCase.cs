@@ -4,6 +4,7 @@ using alluberes.crud.domain.entities;
 using alluberes.crud.domain.interfaces;
 using alluberes.crud.application.dtos;
 using alluberes.crud.domain.exceptions;
+using System.IO.Pipelines;
 
 public class GetCategoryUseCase
 {
@@ -13,20 +14,31 @@ public class GetCategoryUseCase
         _repository = repository;
     }
 
-    public async Task<CategoryDto> ExecuteAsync(int id)
+    public  Task<CategoryDto> ExecuteAsync(int id)
     {
+        var result = new CategoryDto();
+
+        /*
         var entity = await _repository.GetByIdAsync(id);
 
         if(entity == null)
         {
             throw new NotFoundException($"Category with id {id} not found");
         }
-        return new CategoryDto
+
+
+        result =  new CategoryDto
         {
             Id = entity.Id,
             Name = entity.Name,
             IsActive = entity.IsActive,
         };
+
+        */
+
+
+        return result;
+
     }
 }
 

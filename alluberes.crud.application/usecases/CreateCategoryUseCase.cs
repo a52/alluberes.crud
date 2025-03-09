@@ -14,6 +14,7 @@ public class CreateCategoryUseCase
         _repository = repository ?? throw new ArgumentNullException(nameof(repository));
     }
 
+    /*
     public async Task<CategoryDto> ExecuteAsync(CreateCategoryDto input)
     {
         if (input == null) throw new ArgumentNullException(nameof(input));
@@ -36,4 +37,6 @@ public class CreateCategoryUseCase
              IsActive = createdEntity.IsActive,
         };
     }
+
+    */
 }

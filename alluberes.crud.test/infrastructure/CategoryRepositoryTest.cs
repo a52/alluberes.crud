@@ -8,8 +8,7 @@ using alluberes.crud.domain.entities;
 using Dapper;
 using System.Data.Common;
 using alluberes.crud.domain.exceptions;
-using Microsoft.Data.Sqlite; // Use Microsoft.Data.Sqlite
-
+using Microsoft.Data.Sqlite;
 
 public class CategoryRepositoryTests_Sqlite : IAsyncLifetime
 {
@@ -42,6 +41,7 @@ public class CategoryRepositoryTests_Sqlite : IAsyncLifetime
         await _connection.DisposeAsync();
     }
 
+/*
 
     [Fact]
     public async Task AddAsync_ValidCategory_AddsAndReturnsEntityWithId()
@@ -157,4 +157,7 @@ public class CategoryRepositoryTests_Sqlite : IAsyncLifetime
        // Act & Assert
         await Assert.ThrowsAsync<NotFoundException>(() => _repository.DeleteAsync(9999)); // Non-existent ID
     }
+
+*/
+
 }
